@@ -1,7 +1,6 @@
 import Papa from 'papaparse';
 import { Scheme, SCHOLARSHIP_KEYWORDS } from './types';
-
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1QUYiZgItPKIKgLWLthKyZZTwPRF3S3wi94SiUkV-Hl0/export?format=csv';
+const SHEET_URL = 'https://docs.google.com/spreadsheets/d/1QUYiZgItPKIKgLWLthKyZZTwPRF3S3wi94SiUkV-Hl0/export?format=csv&gid=0';
 
 export async function fetchSchemes(): Promise<Scheme[]> {
   return new Promise((resolve, reject) => {
