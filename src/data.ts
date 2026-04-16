@@ -1,6 +1,6 @@
 import Papa from 'papaparse';
 import { Scheme, SCHOLARSHIP_KEYWORDS } from './types';
-const SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSq_7Zx8mEkBy5QVCwuShosPOg4KwMU_2VODaI6shRIXO5c8z_PaCmvxuNbuP-hVU8Ri2z-Uwu9gAOk/pub?output=csv';
+const SHEET_URL = "https://corsproxy.io/?https://docs.google.com/spreadsheets/d/e/2PACX-1vSq_7Zx8mEkBy5QVCwuShosPOg4KwMU_2VODaI6shRIXO5c8z_PaCmvxuNbuP-hVU8Ri2z-Uwu9gA0k/pub?output=csv";
 
 export async function fetchSchemes(): Promise<Scheme[]> {
   return new Promise((resolve, reject) => {
